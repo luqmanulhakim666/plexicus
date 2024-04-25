@@ -1,6 +1,6 @@
 <template>
   <div class="shadow-base pa-4 rounded-xl">
-    <h4 class="h4--default primary--text text--lighten-4">Humidity</h4>
+    <h4 class="h4--default primary--text text--lighten-4">Wind Speed</h4>
     <apexchart type="radialBar" :options="chartOptions" :series="items" />
   </div>
 </template>
